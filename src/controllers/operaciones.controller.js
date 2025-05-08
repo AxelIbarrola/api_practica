@@ -20,7 +20,7 @@ const getOperacion = (req, res) => {
         })
     });
 
-    res.json(resultados)
+    res.status(201).json(resultados)
 }
 
 module.exports = { getOperacion }
